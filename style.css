@@ -15,12 +15,17 @@ body{
 
 .container{
     display: flex;
-    height: 50px;
-    width: 50px;
+    min-height: 50vh;
+    max-width: 100vh;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(248, 246, 246, 0.644);
     background: #d1ac8e96;
+}
+
+.add-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .plus{
@@ -30,4 +35,34 @@ body{
 .plus::after{
     height: 35px;
     width: 35px;
+}
+
+.plus button{
+    border: 1px solid rgba(248, 246, 246, 0.644);
+    background: #d1ac8e96;
+}
+
+.time-content{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(248, 246, 246, 0.644);
+    background: #d1ac8e96;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: #9b664e;
+    cursor: pointer;
+    border-color: #9b6d4e;
+}
+
+p{
+    font-size: 25px;
 }
